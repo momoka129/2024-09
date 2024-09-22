@@ -1,16 +1,114 @@
-\documentclass{paper}
-\usepackage{amsfonts, amssymb, amsmath}
+\documentclass[a4paper, 12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}  % 控制页面边距
+\usepackage{graphicx}  % 插入图片
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 
-\title{AI REVIEW}
+\usepackage{fancyhdr}  % 页眉和页脚
+\pagestyle{fancy}
+\fancyhf{}  % 清除默认设置
+\fancyhead[L]{AI Review Notes}  % 左侧页眉内容
+\fancyhead[R]{}  % 确保右侧页眉清除
+\fancyfoot[C]{\thepage}  % 页脚显示页码
+
+\setlength{\parindent}{0pt} % 取消缩进
+
+% 标题与图片
+\title{
+    \includegraphics[width=0.8\textwidth]{Yanami.JPG}\\  % 确保图片路径正确
+    AI REVIEW
+}
 \author{Kinoko}
 \date{\today}
 
 \begin{document}
 
-\begin{titlepage}  % 使用 titlepage 环境
+\pagenumbering{gobble}  % 禁用页码
+
+\begin{titlepage}  
     \maketitle
 \end{titlepage}
 
+\pagenumbering{roman}  % 使用罗马数字
+\fancyhead[R]{}  % 禁用右侧页眉
+
+% 插入目录页
+\tableofcontents
+\newpage  % 目录单独一页
+
+\pagenumbering{arabic}  % 设置为阿拉伯数字
+
+\section*{Course Syllabus}  % 无编号的章节
+\fancyhead[R]{September 22, 2024}  % 手动设置日期
+\addcontentsline{toc}{section}{Course Syllabus}  % 手动添加到目录中
+    \begin{enumerate}
+        \item Introduction to artificial intelligence
+        \item Problem solving and search technology
+        \item Graph Search Strategies
+        \item Evolutionary search
+        \item Swarm Intelligence
+        \item Memetic algorithms 
+        \item Machine learning
+        \item Artificial Neural Network
+        \item Data mining and knowledge discovery
+    \end{enumerate}
+
+\newpage
+
+% 设置章节从 1 开始编号
+\setcounter{section}{0}
+
 \section{Week 1}
+\fancyhead[R]{September 22, 2024}  % 手动设置日期
+    \subsection{What is artificial intelligence?}
+        \begin{itemize}
+            \item Is an approach to make a computer, a robot, or a product to think \textbf{how smart humans think}.
+            \item Artificial Intelligence is a study of how the human brain thinks, learns, decides, and works when it tries to solve problems. And finally, this study outputs intelligent software systems.
+            \item Aim of Artificial Intelligence is to improve computer functions which are related to human knowledge, for example, reasoning, learning, and problem-solving.
+            \item The objectives of AI research are reasoning, knowledge representation, planning, learning, natural language processing, realization, and the ability to move and manipulate objects. There are long-term goals in the general intelligence sector.
+        \end{itemize}
+    
+    \subsection{Types of AI}
+        Artificial Narrow Intelligence(ANI)
+        \begin{itemize}
+            \item Machine learning
+            \item Specialize in one area and solve one problem
+        \end{itemize}
+
+        Artificial general Intelligence(AGI)
+        \begin{itemize}
+            \item Refers to a computer that is as smart as a human across the board
+        \end{itemize}
+
+        Artificial Super Intelligence(ASI)
+        \begin{itemize}
+            \item An intellect that is much smarter than the best human brain in practically any field
+        \end{itemize}
+
+    \subsection{Dive into AI understanding}
+    \includegraphics[width=\textwidth]{w1_1.png}
+
+    \subsection{Problem solving search technology (part1)}
+    \subsubsection{Category of search}
+        \subsubsection*{Incremental Formulation}
+        Search algorithm builds a solution step by step, considering only one part of the problem at a time. It incrementally constructs a sequence of decisions or actions to reach the goal.
+        \subsubsection*{Complete-State Formulation}
+        The problem and its solution are represented by a complete description of the state of the system or environment. This formulation allows the search algorithm to explore all possible states systematically.
+        \subsubsection*{Toy Problem}
+        A simplified, abstract, or small-scale version of a real-world problem. It is often used in AI and search algorithms as a test or learning tool to develop and test algorithms before applying them to more complex problems.
+        \subsubsection*{Real World Problem}
+        A complex, practical issue that occurs in real-life scenarios. These problems often involve uncertainty, incomplete information, and multiple interacting factors.
+    \subsubsection{Goodness search of Strategies}
+    \begin{itemize}
+        \item Completeness
+        \item Time complexity
+        \item Space complexity
+        \item Optimality of the solution (such as path cost)
+    \end{itemize}
+    
+\newpage
+\section{Week 2}
+\fancyhead[R]{September 25, 2024}  % 手动设置日期
+    \subsection{placeholder}
 
 \end{document}
