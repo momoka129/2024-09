@@ -42,7 +42,9 @@
 \section*{Course Syllabus}  % 无编号的章节
 \fancyhead[R]{September 23, 2024}  % 手动设置日期
 \addcontentsline{toc}{section}{Course Syllabus}  % 手动添加到目录中
-    \begin{enumerate}
+    \begin{center}
+        \begin{enumerate}
+        \renewcommand{\labelenumi}{\Roman{enumi}.}  % 将编号改为大写罗马数字
         \item General Introduction
         \item Relational Model
         \item SQL
@@ -54,6 +56,8 @@
         \item Database Recovery
         \item Concurrency Control
     \end{enumerate}
+    \end{center}
+    
 
 \newpage
 
@@ -172,5 +176,7 @@
 \section{Week 3}
 \fancyhead[R]{September 30, 2024}  % 手动设置日期
     \subsection{placeholder}
+
+    
 
 \end{document}
