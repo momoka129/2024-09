@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}  % 页眉和页脚
 \pagestyle{fancy}
 \fancyhf{}  % 清除默认设置
-\fancyhead[L]{AI Review Notes}  % 左侧页眉内容
+\fancyhead[L]{Database Review Notes}  % 左侧页眉内容
 \fancyhead[R]{}  % 确保右侧页眉清除
 \fancyfoot[C]{\thepage}  % 页脚显示页码
 
@@ -40,18 +40,19 @@
 \pagenumbering{arabic}  % 设置为阿拉伯数字
 
 \section*{Course Syllabus}  % 无编号的章节
-\fancyhead[R]{September 22, 2024}  % 手动设置日期
+\fancyhead[R]{September 23, 2024}  % 手动设置日期
 \addcontentsline{toc}{section}{Course Syllabus}  % 手动添加到目录中
     \begin{enumerate}
-        \item Introduction to artificial intelligence
-        \item Problem solving and search technology
-        \item Graph Search Strategies
-        \item Evolutionary search
-        \item Swarm Intelligence
-        \item Memetic algorithms 
-        \item Machine learning
-        \item Artificial Neural Network
-        \item Data mining and knowledge discovery
+        \item General Introduction
+        \item Relational Model
+        \item SQL
+        \item Database Security
+        \item Database Integrity
+        \item Relational Database Theory 
+        \item Relational Database Design
+        \item Query Processing and Optimization
+        \item Database Recovery
+        \item Concurrency Control
     \end{enumerate}
 
 \newpage
@@ -59,56 +60,117 @@
 % 设置章节从 1 开始编号
 \setcounter{section}{0}
 
-\section{Week 1}
-\fancyhead[R]{September 22, 2024}  % 手动设置日期
-    \subsection{What is artificial intelligence?}
+\section{General Introduction}
+\fancyhead[R]{September 23, 2024}  % 手动设置日期
+    \subsection{What is data?}
         \begin{itemize}
-            \item Is an approach to make a computer, a robot, or a product to think \textbf{how smart humans think}.
-            \item Artificial Intelligence is a study of how the human brain thinks, learns, decides, and works when it tries to solve problems. And finally, this study outputs intelligent software systems.
-            \item Aim of Artificial Intelligence is to improve computer functions which are related to human knowledge, for example, reasoning, learning, and problem-solving.
-            \item The objectives of AI research are reasoning, knowledge representation, planning, learning, natural language processing, realization, and the ability to move and manipulate objects. There are long-term goals in the general intelligence sector.
+            \item Data is just the data and information that can be stored.
+            \item it is typically \textbf{unprocessed} and \textbf{raw}.
+            \item Once we have put our data into \textbf{context}, \textbf{data is transformed into information}, which
+            is then used to make decisions.
         \end{itemize}
     
-    \subsection{Types of AI}
-        Artificial Narrow Intelligence(ANI)
+    \subsection{Databases, Data, and Information}
+        Database
         \begin{itemize}
-            \item Machine learning
-            \item Specialize in one area and solve one problem
+            \item Collection of data organized in a manner that allows access, retrieval, and use of
         \end{itemize}
 
-        Artificial general Intelligence(AGI)
+        Data
         \begin{itemize}
-            \item Refers to a computer that is as smart as a human across the board
+            \item Collection of unprocessed items
+            \item Text, Numbers, Images, Audio, Video
         \end{itemize}
 
-        Artificial Super Intelligence(ASI)
+        Information
         \begin{itemize}
-            \item An intellect that is much smarter than the best human brain in practically any field
+            \item Processed data
+            \item organized, meaningful, useful
         \end{itemize}
 
-    \subsection{Dive into AI understanding}
-
-    \subsection{Problem solving search technology (part1)}
-    \subsubsection{Category of search}
-        \subsubsection*{Incremental Formulation}
-        Search algorithm builds a solution step by step, considering only one part of the problem at a time. It incrementally constructs a sequence of decisions or actions to reach the goal.
-        \subsubsection*{Complete-State Formulation}
-        The problem and its solution are represented by a complete description of the state of the system or environment. This formulation allows the search algorithm to explore all possible states systematically.
-        \subsubsection*{Toy Problem}
-        A simplified, abstract, or small-scale version of a real-world problem. It is often used in AI and search algorithms as a test or learning tool to develop and test algorithms before applying them to more complex problems.
-        \subsubsection*{Real World Problem}
-        A complex, practical issue that occurs in real-life scenarios. These problems often involve uncertainty, incomplete information, and multiple interacting factors.
-    \subsubsection{Goodness search of Strategies}
+    \subsection{What is Database?}
+    Database = A large collection of related
+    data
+    \subsection{Database Management System (DBMS)}
     \begin{itemize}
-        \item Completeness
-        \item Time complexity
-        \item Space complexity
-        \item Optimality of the solution (such as path cost)
+        \item Compilation of related data
+        \item A collection of programs for accessing data
+        \item A database management system (DBMS) stores information about a specific
+        organization.
+        \item Reliable and easy to use
     \end{itemize}
-    
+
+    \subsection{DBMS Core Functions}
+    DBMS gives us an interface or tool to carry out a variety of tasks, including building databases,
+    storing data in them, updating data, creating tables in the databases, and much more.
+    \begin{itemize}
+        \item Defining a particular database in terms of\\
+        \textbf{its data types ,structures , and constraints} 
+        \item Manipulating the database
+        \begin{itemize}
+            \item Retrieval: Querying, generating reports
+            \item Modification: Insertions, deletions and updates to its content
+            \item Accessing the database through Web applications
+        \end{itemize}
+        \item Processing and sharing by a set of concurrent users and application programs
+        yet, keeping all data valid and consistent.
+    \end{itemize}
+
+    \subsection{DBMS Con.}
+    Additionally, DBMS offers security and protection to the
+    databases.\\
+    Maintaining data consistency when multiple users are
+    present.\\
+    Example of DBMS software: MySql, Oracle, Ms SQL Server
+
+    \subsection{Types of Database}
+    \begin{itemize}
+        \item Traditional Applications:
+        \begin{itemize}
+            \item Numeric and Textual Databases
+        \end{itemize}
+        \item More Recent Applications:
+        \begin{itemize}
+            \item Multimedia Database (images, audio, video…)
+            \item Geographic Information Systems (GIS): Store and analyze maps, weather data, and satellite images
+        \end{itemize}
+        \item Data Warehouses and online analytical processing (OLAP) systems
+        \begin{itemize}
+            \item Extract and analyze useful business information from very
+            large databases.
+            \item Support decision making.
+        \end{itemize}
+        \item Real-time and Active Databases
+        \begin{itemize}
+            \item A real-time database is a database system that processes
+            data in real time to handle workloads that are constantly
+            changing.
+        \end{itemize}
+    \end{itemize}
+
+    \subsection{The Database approach's main characteristics}
+    \begin{itemize}
+        \item Data Abstraction
+            \begin{itemize}
+                \item A data model hides storage details while providing users with a conceptual view of the database.
+                \item Programs refer to the data model constructs rather than data storage details.
+            \end{itemize}
+        \item Multiple data views are supported
+            \begin{itemize}
+                \item Each user may see a different view of the database that only shows the data that is relevant to them.
+            \end{itemize}
+        \item Data sharing and transaction processing for multiple users
+            \begin{itemize}
+                \item Allowing multiple users to access and update the database at the same time.
+                \item The recovery subsystem ensures that the effect of each completed transaction is permanently recorded in the database.
+                \item Database applications rely heavily on OLTP (Online Transaction Processing). 
+                Hundreds of concurrent transactions can be executed per second as a result of this.                
+            \end{itemize}
+    \end{itemize}
+
 \newpage
-\section{Week 2}
-\fancyhead[R]{September 25, 2024}  % 手动设置日期
+\section{Week 3}
+\fancyhead[R]{September 30, 2024}  % 手动设置日期
     \subsection{placeholder}
 
 \end{document}
