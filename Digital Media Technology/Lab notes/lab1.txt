@@ -1,0 +1,9 @@
+import media file
+
+right click - item processing -  normalize
+
+red  -  too loud sound  -  reduce volume
+
+s  切 音轨
+
+file -  render - master mix - format
