@@ -2,7 +2,11 @@
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}  % 控制页面边距
 \usepackage{graphicx}  % 插入图片 
+\usepackage{float}     % 强制图片在当前位置
 \usepackage{hyperref}  % 目录可以跳转
+\usepackage{xcolor}    % 字体颜色
+    % Define a custom light blue color
+    \definecolor{light-blue}{RGB}{0, 129, 255} % Light blue (using RGB values)
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 
 \usepackage{fancyhdr}  % 页眉和页脚
@@ -64,7 +68,7 @@
 % 设置章节从 1 开始编号
 \setcounter{section}{0}
 
-\section{General Introduction}
+\section{General Introduction (part 1)}
 \fancyhead[R]{September 23, 2024}  % 手动设置日期
     \subsection{What is data?}
         \begin{itemize}
@@ -173,9 +177,88 @@
     \end{itemize}
 
 \newpage
-\section{Week 3}
+\section{General Introduction (part 2)}
 \fancyhead[R]{September 30, 2024}  % 手动设置日期
     \subsection{placeholder}
+
+  
+\newpage
+\section{Chapter 2C: Enhanced Entity Relationship Model(EERDM)}
+\fancyhead[R]{October 3, 2024}
+
+    \subsection{Chen Model vs Crow's Foot Model}
+    \begin{figure}[H]
+        \includegraphics[width=\textwidth]{chapter2c_8.png}
+    \end{figure}
+
+    \subsection{Subclasses \& Superclasses}
+        \includegraphics[width=\textwidth]{chapter2c_1.png}
+        EER diagrams extend ER diagrams to represent these additional
+        subgroupings, called subclasses or subtypes
+        \begin{itemize}
+            \item Each is called a \textbf{subclass} of EMPLOYEE
+            \item EMPLOYEE is the \textbf{superclass} for each of these subclasses
+            \item These are called superclass/subclass relationships:
+            \begin{itemize}
+                \item EMPLOYEE/SECRETARY
+                \item EMPLOYEE/TECHNICIAN
+                \item EMPLOYEE/MANAGER
+            \end{itemize}
+            \item These are also called \textcolor{red}{IS A} relationships
+            \begin{itemize}
+                \item SECRETARY IS-A EMPLOYEE, TECHNICIAN IS-A EMPLOYEE, ….
+            \end{itemize}
+        \end{itemize}
+
+    \subsection{Generalization \& Specialization}
+       \subsubsection{Generalize}
+       \begin{itemize}
+        \item A bottom-up strategy called generalization \textcolor{light-blue}{combines two lower level entities
+        to create a higher level entity}.
+        \item  Called a \textcolor{purple}{bottom up} conceptual synthesis process.
+       \end{itemize}
+
+       \subsubsection{Specialization}
+       \begin{itemize}
+        \item start with an entity type and then \textcolor{orange}{define subclasses of the entity} type by
+        successive specialization.
+        \item  called a \textcolor{brown}{top down} conceptual refinement process.
+       \end{itemize}
+
+       \subsubsection{Difference between Generalization \& Specialization}
+       \includegraphics[width=\textwidth]{chapter2c_2.png}
+        %\vspace{0.5cm} % Optional: Add some vertical space between images
+       \textbf{Example:} % Text above the second image
+       \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_3.png}
+       \end{figure}
+
+       \vspace{3cm}
+
+       \textbf{Entity Before Generalization} % Text above the second image
+       \begin{figure}[H]
+        \includegraphics[width=\textwidth]{chapter2c_4.png}
+       \end{figure}
+
+       \textbf{Entity After Generalization} % Text above the second image
+       \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_5.png}
+       \end{figure}
+
+       \vspace{2cm}
+       \textbf{Entity Before Specialization} % Text above the second image
+       \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_6.png}
+       \end{figure}
+
+       \textbf{Entity AFTER Specialization} % Text above the second image
+       \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_7.png}
+       \end{figure}
+
+\newpage
+\section{111}
+\fancyhead[R]{October 111, 2024}
 
     
 
