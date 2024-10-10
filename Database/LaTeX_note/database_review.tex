@@ -68,7 +68,7 @@
 % 设置章节从 1 开始编号
 \setcounter{section}{0}
 
-\section{General Introduction (part 1)}
+\section{1A: General Introduction}
 \fancyhead[R]{September 23, 2024}  % 手动设置日期
     \subsection{What is data?}
         \begin{itemize}
@@ -177,13 +177,111 @@
     \end{itemize}
 
 \newpage
-\section{General Introduction (part 2)}
-\fancyhead[R]{September 30, 2024}  % 手动设置日期
-    \subsection{placeholder}
+\section{1B: General Introduction}
+\fancyhead[R]{October 10, 2024}
+    \subsection{Data models}
+    A data model is a set of concepts for display data.\\
+    - The most widely used data model is the \textcolor{red}{relational model}.\\
+    - \textcolor{red}{Entity relational model}
+    \subsection{Data Abstraction in db}
+        \begin{itemize}
+            \item Abstraction is one of the main features of database systems
+            \item Keeping \textcolor{red}{irrelevant information hidden} from users and giving them an
+            abstract view of the data makes user-database interaction simple and
+            effective
+            \item These constraints are hidden from users so that they can simply \textcolor{green}{access
+            the data}, and \textcolor{green}{just the relevant portion} of the database is made \textcolor{green}{visible
+            to them} through data abstraction.
+        \end{itemize}
+    \subsection{Level of data abstraction}
+    \begin{figure}[H]
+        \includegraphics[width=\textwidth]{chapter1a_1.png}
+    \end{figure}
+    logical level: blueprint of data
 
-  
 \newpage
-\section{Chapter 2C: Enhanced Entity Relationship Model(EERDM)}
+\section{2A: Relational Model}
+\fancyhead[R]{October 10, 2024}
+    \subsection{Relational Model Concepts}
+    \textcolor{purple}{Represent data as a collection of relations}\\
+    - row(tuple)\\
+    - column(attribute)
+    \begin{figure}[H]
+        \includegraphics[width=\textwidth]{chapter1a_2.png}
+        \includegraphics[width=\textwidth]{chapter1a_3.png}
+    \end{figure}
+    \vspace{3cm}
+    \subsection{Basic Structure}
+    \subsubsection{Characteristics of Relaions}
+        \begin{itemize}
+            \item A Relation initially was a mathematical concept based on the ideas of \textcolor{orange}{sets}.
+            \item The relation above also have \textcolor{red}{keys}, such as: Primary Key, Foreign Key
+        \end{itemize}
+    \subsubsection{Constraints}
+    \begin{figure}[H]
+        \includegraphics[width=\textwidth]{chapter1a_4.png}
+        \includegraphics[width=\textwidth]{chapter1a_5.png}
+    \end{figure}
+    \subsubsection{Relational Database Schema}
+    \begin{figure}[H]
+        \includegraphics[width=0.4\textwidth]{chapter1a_6.png}
+    \end{figure}
+
+    \subsection{Relational Algebra}
+    \subsubsection{Query Language}
+    A Language which is used to \textcolor{red}{store} and \textcolor{red}{retrieve data} from
+    database is known as query language.(e.g. SQL)
+    \subsubsection{Relational Algebra in Database}
+    \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter1a_7.png}
+        \includegraphics[width=0.8\textwidth]{chapter1a_8.png}
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[width=0.9\textwidth]{chapter1a_9.png}
+        \includegraphics[width=0.9\textwidth]{chapter1a_10.png}
+        \includegraphics[width=0.9\textwidth]{chapter1a_11.png}
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[width=0.9\textwidth]{chapter1a_12.png}
+        \includegraphics[width=0.9\textwidth]{chapter1a_13.png}
+        \includegraphics[width=0.9\textwidth]{chapter1a_14.png}
+    \end{figure}
+    \newpage
+\section{2B: Entity Relationship Diagram}
+\fancyhead[R]{October 10, 2024}
+    \subsection{Entities}
+        \begin{itemize}
+            \item Person,place,objects,event or concept about which data is to be maintained.
+            \item \textcolor{orange}{Box}
+        \end{itemize}
+    \subsection{Attributes}
+        \begin{itemize}
+            \item Properties or characteristic of an entity.
+            \item Types
+            \begin{itemize}
+                \item Composite attributes
+                \item Multi-valued attributes
+                \item Derived attributes
+            \end{itemize}
+            \item \textcolor{orange}{Oval}
+        \end{itemize}
+    \subsection{Relationships}
+    \begin{itemize}
+        \item Verb phrase(belongs to)
+        \item Association between the instances of one or more entities.
+        \begin{itemize}
+            \item One to one (1:1)
+            \item One to many (1:M)
+            \item Many to many (M:M)
+        \end{itemize}
+        \item \textcolor{orange}{Diamond box}
+    \end{itemize}
+    \begin{figure}[H]
+        \includegraphics[width=0.3\textwidth]{chapter1a_15.png}
+    \end{figure}
+
+\newpage
+\section{2C: Enhanced Entity Relationship Model(EERDM)}
 \fancyhead[R]{October 3, 2024}
 
     \subsection{Chen Model vs Crow's Foot Model}
@@ -255,11 +353,33 @@
        \begin{figure}[H]
         \includegraphics[width=0.8\textwidth]{chapter2c_7.png}
        \end{figure}
+    \newpage
+    \fancyhead[R]{October 10, 2024}
+    \subsection{ERD $\rightarrow$ Relational Schema}
+       \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_9.png}
+        \includegraphics[width=0.8\textwidth]{chapter2c_10.png}
+        \includegraphics[width=0.8\textwidth]{chapter2c_11.png}
+       \end{figure}
+       \begin{figure}[H]  
+        \includegraphics[width=0.8\textwidth]{chapter2c_12.png}
+        \includegraphics[width=0.8\textwidth]{chapter2c_13.png}
+       \end{figure}
+
+    \vspace{3cm}
+    \subsection{Enhanced ERD $\rightarrow$ Relational Schema}
+    \begin{figure}[H]
+        \includegraphics[width=0.8\textwidth]{chapter2c_14.png}
+    \end{figure}
 
 \newpage
-\section{111}
-\fancyhead[R]{October 111, 2024}
-
+\section{3A: Basic SQL}
+\fancyhead[R]{October 10, 2024}
+    \subsection{Structured Query Language}
+    Considered one of the major reasons for the commercial success
+    of relational databases.\\
+    Others sql statements\\
+    END
     
 
 \end{document}
