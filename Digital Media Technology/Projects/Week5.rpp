@@ -1,0 +1,798 @@
+<REAPER_PROJECT 0.1 "7.22/win64" 1729601651
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 3.6
+  ZOOM 156.88758172164893 0 0
+  VZOOMEX 5.85304546 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "C:\Users\24101\Desktop\202409\Digital Media Technology\Exercise\Week5.mp3"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 2 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    bDNwbYAAAAAAAAAAAgAAAP////8EAAAAgAAAAAAAAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0
+    SPLDEF 3 440 "" 0
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 200 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 4.8 0
+  SELECTION2 4.8 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 0.67365116373859 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {15DB8266-2628-4488-B3ED-705733D1B2AB}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {C9138D46-C4F8-4222-94F1-5051B6BEEC27}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {C1AE5540-A88E-45E9-BFDB-FCC2FB973969}
+    NAME closed-hi-hat-20202
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.11521806013581 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C1AE5540-A88E-45E9-BFDB-FCC2FB973969}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.16915646258503
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {95CBF143-B91B-4EED-BE4C-08052514AD9D}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {76B6A8C8-3D9C-4CA5-833E-2141B4998BFB}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.6
+      SNAPOFFS 0
+      LENGTH 0.16915646258503
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5343118A-C7D9-4EF1-9791-62FC4EA6A8CA}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C85989B9-A1A0-4498-830E-2EBD647D42B4}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.2
+      SNAPOFFS 0
+      LENGTH 0.16915646258503
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DCE11E94-9BB2-4348-9B6D-AB90D9E30BA0}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66B20849-8FC5-4F6C-96BC-DF46EC1AF605}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.8
+      SNAPOFFS 0
+      LENGTH 0.16915646258504
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A3D95363-91BC-4B50-B3DD-6E6B4F7F0FC7}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0077A4D7-D274-46D0-9F79-7D1F61C8FE58}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.4
+      SNAPOFFS 0
+      LENGTH 0.16915646258504
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94DAD9BF-DE50-4CF7-A440-13CA42D1710F}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {54CE0EFF-912F-4C9F-9EE4-8A2171674570}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.16915646258504
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {802A1CC6-D4B6-400D-B3F2-777BCE9C06CD}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666663 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {329E7824-1105-46B6-A6B2-BC0AFA23A497}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.6
+      SNAPOFFS 0
+      LENGTH 0.16915646258503
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8362EBD5-3A4B-4996-B254-36B8BD895068}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DED17C1-5530-47CA-BEB5-1653839D06A7}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.19999999995343
+      SNAPOFFS 0
+      LENGTH 0.16915646258504
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8166D43F-B116-4761-A646-3CF48507A916}
+      IID 3
+      NAME closed-hi-hat-20202.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666661 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F09F298F-49E8-4844-AD31-D5E27FF9C3A1}
+      <SOURCE WAVE
+        FILE "Media\closed-hi-hat-20202.wav"
+      >
+    >
+  >
+  <TRACK {9FA08C06-7D26-4389-ACBF-0D81BFFEA4A3}
+    NAME clicky-snare-drum-hit
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.42637075113095 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9FA08C06-7D26-4389-ACBF-0D81BFFEA4A3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 1.2
+      SNAPOFFS 0
+      LENGTH 0.0996462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B5B5B5BD-0985-46C9-B2F0-A3E843DC73EC}
+      IID 1
+      NAME clicky-snare-drum-hit.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F47A7B45-8FDF-4598-95A8-7265EFE81CB3}
+      <SOURCE WAVE
+        FILE "Media\clicky-snare-drum-hit.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.2996462585034
+      SNAPOFFS 0
+      LENGTH 0.0996462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ECA5070B-36A0-454D-8793-1BF2A55E9A89}
+      IID 1
+      NAME clicky-snare-drum-hit.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666664 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {459EEA54-4559-4AE5-9EEC-0264B33D9F54}
+      <SOURCE WAVE
+        FILE "Media\clicky-snare-drum-hit.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.6
+      SNAPOFFS 0
+      LENGTH 0.0996462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {28728448-7349-4D00-8994-9F9F9CEB36B4}
+      IID 1
+      NAME clicky-snare-drum-hit.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B290DC62-3751-4F0F-852D-9B13EA49DA03}
+      <SOURCE WAVE
+        FILE "Media\clicky-snare-drum-hit.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.6996462585034
+      SNAPOFFS 0
+      LENGTH 0.0996462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CBF0CBAE-174C-4BBC-AB68-30E0D88885A3}
+      IID 1
+      NAME clicky-snare-drum-hit.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666662 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A00BA98A-F89A-45C5-AC3C-7BF9E0EBB9D5}
+      <SOURCE WAVE
+        FILE "Media\clicky-snare-drum-hit.wav"
+      >
+    >
+  >
+  <TRACK {7C509D36-DFD0-421E-B7A0-201CE2773E07}
+    NAME taye-bass-drum
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.37204449018951 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7C509D36-DFD0-421E-B7A0-201CE2773E07}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5F8EC77C-35F8-4B67-B7CD-095E75318453}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF45821A-7A33-4F12-A16A-1D8510DE621E}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.6
+      SNAPOFFS 0
+      LENGTH 0.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7357945D-1EDA-4144-B31D-FE1F5629AFDF}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBFFF44D-7321-418E-9665-925C0BE84D6F}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B828BE5A-7B6F-40E1-BB59-FA5BF8E5CEA0}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {269D7A1E-35A6-47AA-84B3-C367625F247E}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.1
+      SNAPOFFS 0
+      LENGTH 0.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6491A0E-AD07-4339-A876-4426167345EC}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666668 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A9ECCEB4-78B4-4240-BBB1-869040BDB9AB}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4CEC4744-902D-41AB-BBDB-C14E42782457}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666667 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBB525EB-9CC7-44F5-8019-2FF46D71FC3B}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.11303460279583
+      SNAPOFFS 0
+      LENGTH 1.08696539720417
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {747F6312-A668-45BA-AAE5-8B642BF41A04}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2424A7E2-94F2-4DFE-A445-B0ED3D9F7FDD}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+  >
+  <TRACK {05D51AA4-5922-4F98-85E5-7CDC6C350001}
+    NAME taye-bass-drum
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.29711238515613 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {05D51AA4-5922-4F98-85E5-7CDC6C350001}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B99DAF11-284C-43BC-A002-251C9C480BF2}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666664 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80194F42-BBCA-4F10-99D8-259D7B8730E6}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.11303460279583
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B3EB342F-D46A-4219-908F-1B37DFBB4A76}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666664 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FE773678-67F7-4210-AC33-84C74F34C7E2}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C6E7C5BB-59EB-41EE-A7B4-C5922D48C119}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666665 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E6097F85-23DD-4A45-9383-A8EC6C72950E}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.61303460279583
+      SNAPOFFS 0
+      LENGTH 0.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {482DB719-9F73-467E-AA6D-B272758448C7}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666663 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED5AC089-129E-41DE-98FB-1A44AF09B4A2}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5E8E0DAB-78CD-4413-A953-BD5AD2571ED2}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666664 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F1B4230-BF29-483C-BF90-D4C5C913842E}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.11303460279583
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {11F00629-3720-4705-9B4E-B0DCBA0E89DB}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.66666666666663 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {686768B6-01B6-4181-954B-DA75644918B5}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.90000000002328
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {83D91F09-9FC4-4A8E-83BE-0751024E32C6}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.6666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C70ACFA-F274-41DF-AD55-F6F0BF0526E9}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.90000000002328
+      SNAPOFFS 0
+      LENGTH 0.00001
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {655BA1DD-CA1A-4697-93F7-44465E3C4A57}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.6666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60D05051-1D8B-4EF5-9678-27C27E061797}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.5
+      SNAPOFFS 0
+      LENGTH 0.11303460279583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.0045 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8756A46E-D44A-4C8D-BFDB-738D36E59267}
+      IID 5
+      NAME taye-bass-drum.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.6666666666666 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6B61AAE2-234E-42AC-A396-C1A23DBB74FE}
+      <SOURCE WAVE
+        FILE "Media\taye-bass-drum.wav"
+      >
+    >
+  >
+>
